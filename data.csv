@@ -1,0 +1,7 @@
+Name;Color;Mass(kg);PosX(AU);PosY(AU);VelX(m/s);VelY(m/s)
+Sun;yellow;1.989E+30;0.0;0.0;0.0;0.0
+Mercury;grey;3.301E+23;0.387098;0.0;0.0;47360.0
+Venus;orange;4.868E+24;0.723332;0.0;0.0;35020.0
+Earth;blue;5.972E+24;1.0;0.0;0.0;29783.0
+Mars;red;6.417E+23;1.529681;0.0;0.0;24070.0
+Jupiter;brown;1.898E+27;5.2038;0.0;0.0;13070.0
