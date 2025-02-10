@@ -11,7 +11,7 @@ Here are some visualization done using the code:
 ![innerplanets](https://github.com/user-attachments/assets/31866bd7-9638-4dbf-bab9-966bd86f5896)
 
 
-Even though the math behind this simulation is very simple, one can still visualize interesting things like how Jupiter forces the Sun to wobble. The barycenter for Jupiter and Sun is outside the Sun's surface and it can be seen below (the size of the Sun is actually very close to the real size).
+Even though the math behind this simulation is very simple, one can still visualize interesting things like how Jupiter forces the Sun to wobble. The barycenter for Jupiter and Sun is outside the Sun's surface and it can be seen below (the size of the Sun in this is actually very close to its real size).
 
 
 ![sun_movement](https://github.com/user-attachments/assets/13300f4a-b1c9-4d9d-839b-b4fe45ef3165)
