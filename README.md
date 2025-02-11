@@ -1,8 +1,8 @@
 # Simple Planetary System Simulator
-
-A simple planetary system simulator using Velocity Verlet and Newton's law of universal gravitation. The objects are inputted using a file (in this case .csv with semicolon separation), and it is run using command line instructions. The simulation uses 600 second timestep, and its default configuration (data.csv) initializes only the first five planets of Solar System. Due to the vast distance of outer planets, it would make the inner planets' orbits too small to visualize, and also way too resource demanding because of the long orbital periods. Python is not really suitable for these types of simulations due to the fact that the running time increases very fast the more objects we have. One could improve this code by
-simply writing it in C++ and then utilizing parallelization to do calculations for objects separately.
-
+## Python vs C++
+### Python version
+A simple planetary system simulator using Velocity Verlet and Newton's law of universal gravitation. In Python version (system.py) the objects are inputted using a file (in this case .csv with semicolon separation), and it is run using command line instructions. The simulation uses 600 second timestep, and its default configuration (data.csv) initializes only the first five planets of Solar System. Running time increases very fast if one were to calculate enough steps required for outer planets.  Python is not really suitable for these types of simulations due to the fact that the running time increases very fast the more objects we have. One could improve this code by
+simply writing it in C++ (like below).
 
 You can run the code using: python system.py data_file number_of_iterations (for example, doing 1.9 years of calculations would require N = 100 000).
 
@@ -16,3 +16,11 @@ Even though the math behind this simulation is very simple, one can still visual
 
 ![sun_movement](https://github.com/user-attachments/assets/13300f4a-b1c9-4d9d-839b-b4fe45ef3165)
 
+### C++ version
+
+C++ version is run by compiling planetsystem.cpp using: g++ planetsystem.cpp -o sim.exe. Unlike the python version, the c++ version does not retrieve data via a .csv file, but the data of the planets is already included in the code. Due to the massive performance increase (~110x), you can easily calculate millions of iterations for all planets fast. 
+The code also requires visualize.py, which is automatically run inside planetsystem.cpp.
+You can the code using: ./sim.exe number_of_iterations (N = 10 000 000 is enough to make Neptune do full orbit).
+
+
+[allplanets.webm](https://github.com/user-attachments/assets/12465243-1dc6-42a7-a859-ba03a6e0fea6)
