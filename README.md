@@ -23,4 +23,4 @@ The code also requires visualize.py, which is automatically run inside planetsys
 You can the code using: ./sim.exe number_of_iterations (N = 10 000 000 is enough to make Neptune do full orbit).
 
 
-[allplanets.webm](https://github.com/user-attachments/assets/12465243-1dc6-42a7-a859-ba03a6e0fea6)
+![all](https://github.com/user-attachments/assets/ca04dfcd-caaa-496f-a643-74bb3a1e31c8)
