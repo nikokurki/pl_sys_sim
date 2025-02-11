@@ -23,7 +23,7 @@ C++ version is run by compiling planetsystem.cpp using: g++ planetsystem.cpp -o 
 Unlike the python version, the C++ version does not retrieve data via a .csv file, but the data of the planets is already included in the code. Due to the massive performance increase (~110x), you can easily calculate millions of iterations for all planets fast. 
 The code also requires visualize.py, which is automatically run inside planetsystem.cpp.
 
-You can use the code using: ./sim.exe number_of_iterations (N = 10 000 000 is enough to make Neptune do full orbit).
+You can run the code using: ./sim.exe number_of_iterations (N = 10 000 000 is enough to make Neptune do full orbit).
 
 
 ![all](https://github.com/user-attachments/assets/ca04dfcd-caaa-496f-a643-74bb3a1e31c8)
